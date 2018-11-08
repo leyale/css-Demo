@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+  <style>
+    .con{
+      margin: auto 50px;
+      width: 306px;
+    }
+    .title{
+      overflow: hidden;
+      text-align: center;
+    }
+    .title a{
+      display: inline-block;
+      margin: 0;
+      float: left;
+      height: 30px;
+      width: 100px;
+      border: 1px solid #999;
+      background: #fff;
+      color: #000;
+    }
+    .item{
+      width: 306px;
+      height:200px;
+      text-align: center;
+      background: #c2c2c2;
+      overflow:hidden;
+    }
+    section{
+      height: 200px;
+      border: 1px solid #000;
+    }
+    a:active{
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+<div class="con">
+  <div class="title">
+    <a href="#shown1">标题一</a>
+    <a href="#shown2">标题2</a>
+    <a href="#shown3">标题3</a>
+  </div>
+  <div class="item">
+    <section id="shown1" class="shown">内容一</section>
+    <section id="shown2">内容2</section>
+    <section id="shown3">内容3</section>
+  </div>
+  </div>
+</body>
+</html>
